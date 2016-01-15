@@ -1,0 +1,21 @@
+<% extend './layouts/layout' %>
+<div class="row">
+  <div class="col-lg-12">
+    <div class="input-group">
+      <input type="text" class="form-control" id="keyword" name="keyword" placeholder="検索キーワードを入力してください。" />
+      <span class="input-group-btn">
+        <button id="search-button" class="btn btn-primary" onclick="search()">
+          <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+        </button>
+      </span>  
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-lg-12">
+    <div id="search-container"></div>
+  </div>
+</div>
+<% block 'local_javascripts' : %>
+<script src="javascripts/search.js"></script>
+<% end %>

@@ -1,0 +1,14 @@
+{
+    "navbarTitle": "Jukebox",
+    "navbarClass": "navbar navbar-inverse navbar-default navbar-fixed-top",
+    "navbarItems": [
+        {
+            "class": "nav navbar-nav",
+            "links": [
+                { "value": "Play Lists", "href": "/" },
+                { "value": "Play", "href": "/play" },
+                { "value": "Search", "href": "/search" }
+            ]
+        }
+    ]
+}
