@@ -18,8 +18,8 @@ function onYouTubeIframeAPIReady() {
   
   // "player"という文字列は、divのID属性の値を指定します。
   player = new YT.Player('player', {
-    height: '390',
-    width: '640',
+    height: '100',
+    width: '100',
     videoId: $('#videoId').val(),
     events: {
       'onReady': onPlayerReady,
