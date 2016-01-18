@@ -37,8 +37,6 @@ app.get('/api/movies/:id', webapi.show);
 app.post('/api/movies', webapi.create);
 app.put('/api/movies/:id', webapi.update);
 app.delete('/api/movies/:id', webapi.destroy);
-app.get('/api/getVideoId', webapi.getVideoId);
-app.get('/api/getVideoId/:index', webapi.getVideoId);
 app.get('/api/updatePlayCount/:_id', webapi.updatePlayCount);
 app.get('/api/getPlayVideoId', webapi.getPlayVideoId);
 
