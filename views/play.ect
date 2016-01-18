@@ -2,10 +2,15 @@
 <% block 'local_javascripts' : %>
 <script src="javascripts/jukebox.js"></script>
 <% end %>
+<div class="row">
+<div class="col-xs-12">
 <div id="player"></div>
 <input type="hidden" id="objectId" value="" />
 <input type="hidden" id="videoId" value="" />
-<div class="btn-group" role="group" aria-label="...">
+</div>
+</div>
+<div class="row">
+<div class="btn-group col-xs-12" role="group" aria-label="...">
   <div class="btn-group" role="group">
     <button id="play" class="btn btn-default" >
       <span class="glyphicon glyphicon-play" aria-hidden="true"></span>
@@ -16,4 +21,5 @@
       <span class="glyphicon glyphicon-pause" aria-hidden="true"></span>
     </button>
   </div>
+</div>
 </div>
