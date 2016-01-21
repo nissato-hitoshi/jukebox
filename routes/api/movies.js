@@ -1,9 +1,9 @@
 var mongodb = require('mongodb');
 var movies;
 
-mongodb.MongoClient.connect("mongodb://localhost:27017/jukebox", function(err, db) {
-  movies = db.collection("movies");
-});
+    mongodb.MongoClient.connect("mongodb://localhost:27017/jukebox", function(err, db) {
+      movies = db.collection("movies");
+    });
 
 module.exports = {
     index : function (req, res) {
