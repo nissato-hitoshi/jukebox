@@ -8,7 +8,7 @@ router.get('/', function(req, res) {
   res.render('search', { navbar: data });
 });
 
-router.post('/', function(req, res) { 
+router.post('/', function(req, res) {
   var keyword = req.body.keyword;
  
   if (req.body.pageToken) {
